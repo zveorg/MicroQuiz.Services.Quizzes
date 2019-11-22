@@ -1,2 +1,2 @@
 # MicroQuiz.Services.Quizzes
-Quizzes service for MicqoQuiz
+Quizzes service for [MicroQuiz](https://github.com/zveorg/MicroQuiz)
