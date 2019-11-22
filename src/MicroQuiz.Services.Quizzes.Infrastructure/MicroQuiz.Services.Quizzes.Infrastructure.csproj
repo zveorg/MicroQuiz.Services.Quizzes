@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.30" />
+    <PackageReference Include="Dapper.FluentMap" Version="1.8.0" />
+    <PackageReference Include="Dapper.FluentMap.Dommel" Version="1.7.0" />
+    <PackageReference Include="Dommel" Version="1.11.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.0.0-rc1.final" />
+    <PackageReference Include="RawRabbit.DependencyInjection.ServiceCollection" Version="2.0.0-rc5" />
+    <PackageReference Include="RawRabbit.Operations.Publish" Version="2.0.0-rc5" />
+    <PackageReference Include="RawRabbit.Operations.Subscribe" Version="2.0.0-rc5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MicroQuiz.Services.Quizzes.Core\MicroQuiz.Services.Quizzes.Core.csproj" />
+  </ItemGroup>
+
+</Project>
